@@ -1,0 +1,263 @@
+    *{
+        margin: 0px ;
+        padding: 0px;
+        line-height: 26px;   
+    }
+    .nav-item:hover{
+        background-color: #316DC3;
+        color:grey;
+        
+    }
+    .nav-item{
+        border-radius: 15px;
+    }
+    .home-btn{
+        background-color: #316DC3 !important;
+        color: white !important;
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    .header-strip {
+        color: white;
+        background-color: #316dc3;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .social-icons{
+        display: flex;
+        padding: 0px 10px 0px 30px;
+    }
+    .social-icons img{
+        width: 20px;
+        height: 20px;
+        margin: 0px 7px 0px 7px;
+    }
+    .buttons{
+        display: flex;
+        padding: 0px 10px 0px 30px;
+        flex-wrap: wrap;
+    }
+    .btn{
+        font-size: 12px;
+        margin: 0px 3px;
+    }
+    .Logo{
+        height: 50pxpx;
+        width: 200px;
+
+    }
+    .strip{
+        background-color: #316dc3;
+        color: white;
+        text-align: center;
+    }
+
+    .strip span{
+        color:#3be910 ;
+    } 
+    .introduction{
+        text-align: center;
+    } 
+    .introduction p{
+        padding: 0px 100px;
+        text-align: center;
+    } 
+    .intro1{
+        padding-top: 30px;
+        color: #316dc3;
+    }
+    .intro2{
+        padding-top: 30px;
+        color: #427900 ;
+    }
+    .counter{
+
+        background-color:  #2655E8;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        padding: 10px 0px;
+        margin: 10px 10px;
+    }
+    .green{
+        color: #54da6a ;
+
+    }
+    .counter h4{
+        font-size: 20px ;
+    }
+    .homebtn{
+        background-color: #316dc3 !important;
+        border-radius: 20px;
+        padding-left : 28px !important; 
+        padding-right: 28px !important;
+    }
+    .dastarkhuwan,.family,.medical,.student{
+        margin: 10px 10px;
+    }
+    .about,.services,.future{
+        font-size: 1rem;
+    }
+    .what-we-are-doing{
+        background-color: rgba(102, 102, 102,.1);
+        padding: 0px 100px;
+        margin-top: -58px;
+        text-align: center;
+    } 
+    .what-we-are-doing h1{
+        padding-top: 20px;
+    }
+    .Online-Sadqah,.Welfare,.Medical{
+        background-color: white;
+        box-shadow: 5px grey;
+        width: 300px;
+        padding: 40px 10px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .container-2,.container-1{
+        
+        box-shadow: rgba(102, 102, 102,.5);
+        padding: 40px 10px;
+        display: flex;
+        justify-content: space-around;
+        
+        flex-wrap: wrap;
+
+    }
+    .DASTRAKHAN,.education,.ROPLANT{
+        background-color: white;
+        box-shadow: 5px grey;
+        width: 300px;
+        padding: 40px 10px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .container-2 h1,.container-1 h1{
+        font-size: 25px;
+        color: #316dc3;
+    
+    }
+    .mission{
+        color: #316dc3;
+        
+        padding: 10px 80px;
+    }
+    .container-3{
+        box-shadow: rgba(102, 102, 102,.5);
+        padding: 40px 10px;
+        display: flex;
+        justify-content: space-around;
+        
+        flex-wrap: wrap;
+
+    }
+    .HEPATITIS, .Housing, .IT, .THARPARKAR{
+        background-color: white;
+        box-shadow: rgba(102, 102, 102,.5);
+        /* width: 150px; */
+        padding: 40px 10px;
+        font-size: 32px;
+        margin-top: 20px;
+    }
+    .IT{
+        padding: 0px 15px !important;
+        margin: 0px !important;
+    }
+    .Upcoming-Events h2{
+        
+        color: #316dc3 !important;
+        margin-top: 10px;
+    }
+    .Arrow{
+        float: inline-end;
+    }
+    
+    .inner-mission{
+        font-size: 1rem !important;
+    }
+    .mission h3{
+        font-size: 2rem;
+    }.Image-Gallery{
+        text-align: center;
+    }
+    .Img-Container{
+        display: flex;
+        padding-top: 80px 80px;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 90%;
+        
+    }
+    .Img-Container img{
+        height: 150px;
+        border: 3px white solid;
+
+    }
+    .footer{
+        background-color: black;
+        color: white;
+        padding: 100px 80px;
+    }
+    .contact-info img{
+        width: 20px;
+        height: 20px;
+        margin: 0px 7px 0px 7px;
+    }
+    .contact-info{
+        display: flex;
+        padding: 0px 10px 0px 30px;
+    }
+
+    .useful-links hr{
+        background-color: white;
+    }
+
+    .contact-info img{
+        height: 35px;
+        width: 35px;
+    }
+    @media screen and (max-width: 480px){
+        .introduction p{
+            padding-left: 30px !important;
+        }
+        .counter{
+            display: flex;
+            flex-direction: column;
+        }
+        .container-2{
+            width: 95%;
+            padding-top: 0px;
+
+        }
+        .container-1{
+            width: 95%;
+            padding-bottom: 0px;
+
+        }
+        .IT{
+            padding: 40px 10px !important ;
+            margin: 20px 0px 0px !important;
+        }
+        .THARPARKAR{
+            margin: 20px 0px 0px !important;
+            padding: 40px 10px !important;
+        }
+        .header-strip{
+            display: flex;
+            flex-wrap: wrap;
+        }
+            
+    }
+    .to-top{
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+        position: fixed;
+    }
